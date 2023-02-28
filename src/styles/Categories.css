@@ -1,8 +1,21 @@
-.lmj-categories {
+.lmr-categories {
 	text-align: center;
 	padding-top: 30px;
 }
 
-.lmj-categories-select {
+.lmr-categories-select {
 	margin-right: 15px;
+	border-radius: 20px;
+    padding: 3px;
+    background-color: #c3d69c;
+    border: none;
+    color: white;
+}
+.lmr-reinitialisation{
+	border-radius: 0px 20px 20px 20px;
+    padding: 5px;
+    background-color: #db9796;
+    color: white;
+    font-weight: bold;
+    border: none;
 }

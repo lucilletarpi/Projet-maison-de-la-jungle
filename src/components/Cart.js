@@ -12,9 +12,9 @@ function Cart({ cart, updateCart }) {
 	}, [total])
 
 	return isOpen ? (
-		<div className='lmj-cart'>
+		<div className='lmr-cart'>
 			<button
-				className='lmj-cart-toggle-button'
+				className='lmr-cart-toggle-button'
 				onClick={() => setIsOpen(false)}
 			>
 				Fermer
@@ -30,16 +30,16 @@ function Cart({ cart, updateCart }) {
 						))}
 					</ul>
 					<h3>Total :{total}€</h3>
-					<button onClick={() => updateCart([])}>Vider le panier</button>
+					<button className='lmr-cart-panier' onClick={() => updateCart([])}>Vider le panier</button>
 				</div>
 			) : (
 				<div>Votre panier est vide</div>
 			)}
 		</div>
 	) : (
-		<div className='lmj-cart-closed'>
+		<div className='lmr-cart-closed'>
 			<button
-				className='lmj-cart-toggle-button'
+				className='lmr-cart-toggle-button'
 				onClick={() => setIsOpen(true)}
 			>
 				Ouvrir le Panier

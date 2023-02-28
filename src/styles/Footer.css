@@ -1,7 +1,7 @@
-.lmj-footer {
+.lmr-footer {
 	color: black;
 	padding: 32px;
-	border-top: solid 3px black;
+	border-top: solid 3px #c3d69c;
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: column;
@@ -9,6 +9,6 @@
 	font-weight: 500;
 }
 
-.lmj-footer-elem {
+.lmr-footer-elem {
 	margin-bottom: 10px;
 }

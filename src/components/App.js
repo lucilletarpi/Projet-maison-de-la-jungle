@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import Banner from './Banner'
-import logo from '../assets/logo.png'
+import logo from '../assets/logo.jpg'
 import Cart from './Cart'
 import Footer from './Footer'
 import ShoppingList from './ShoppingList'
@@ -16,10 +16,10 @@ function App() {
 	return (
 		<div>
 			<Banner>
-				<img src={logo} alt='logo-la-maison-jungle' className='lmj-logo' />
-				<h1 className='lmj-title'>La maison jungle</h1>
+				<img src={logo} alt='logo-la-maison-de rosie' className='lmr-logo' />
+				<h1 className='lmr-title'>La maison de Rosie</h1>
 			</Banner>
-			<div className='lmj-layout-inner'>
+			<div className='lmr-layout-inner'>
 				<Cart cart={cart} updateCart={updateCart} />
 				<ShoppingList cart={cart} updateCart={updateCart} />
 			</div>
