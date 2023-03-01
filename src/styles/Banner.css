@@ -12,7 +12,9 @@
 .lmr-title {
 	padding-left: 32px;
 }
-
+.lmr-descript{
+	text-align: center;
+}
 .lmr-logo {
 	height: 45px;
 	width: 45px;

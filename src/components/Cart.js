@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import '../styles/Cart.css'
+import panier from '../assets/panier.png'
 
 function Cart({ cart, updateCart }) {
 	const [isOpen, setIsOpen] = useState(true)
@@ -17,7 +18,7 @@ function Cart({ cart, updateCart }) {
 				className='lmr-cart-toggle-button'
 				onClick={() => setIsOpen(false)}
 			>
-				Fermer
+				Fermer 
 			</button>
 			{cart.length > 0 ? (
 				<div>
@@ -42,7 +43,8 @@ function Cart({ cart, updateCart }) {
 				className='lmr-cart-toggle-button'
 				onClick={() => setIsOpen(true)}
 			>
-				Ouvrir le Panier
+			<img src={panier} alt='panier' />
+				Ouvrir le Panier 
 			</button>
 		</div>
 	)

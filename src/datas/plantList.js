@@ -1,90 +1,96 @@
-import monstera from '../assets/monstera.jpg'
-import lyrata from '../assets/lyrata.jpg'
-import pothos from '../assets/pothos.jpg'
-import succulent from '../assets/succulent.jpg'
-import olivier from '../assets/olivier.jpg'
-import basil from '../assets/basil.jpg'
+import nepeta from '../assets/Nepeta.jpg'
+import herbe from '../assets/herbe.jpg'
+import callisia from '../assets/callisia.jpg'
+import Saintpaulia from '../assets/Saintpaulia.jpg'
+import beaucarnea from '../assets/beaucarnea.jpg'
+import papyrus from '../assets/papyrus.jpg'
 import mint from '../assets/mint.jpg'
-import calathea from '../assets/calathea.jpg'
-import cactus from '../assets/cactus.jpg'
+import Chlorophytum from '../assets/Chlorophytum.jpg'
+import carex from '../assets/carex.jpg'
 
 export const plantList = [
 	{
-		name: 'monstera',
-		category: 'classique',
+		name: 'Nepeta cataria',
+		category: 'Chat',
 		id: '1ed',
 		bestSale: true,
-		light: 2,
+		light: 3,
 		water: 3,
-		cover: monstera,
+		cover: nepeta,
+		alias: 'Menthe des chats',
 		price: 15
 	},
 	{
-		name: 'ficus lyrata',
-		category: 'classique',
+		name: 'Cyperus zumula',
+		category: 'Chat',
 		id: '2ab',
-		light: 3,
-		water: 1,
-		cover: lyrata,
-		price: 16
+		light: 1,
+		water: 3,
+		cover: herbe,
+		alias:'Herbe a chats',
+		price: 2
 	},
 
 	{
-		name: 'pothos argenté',
-		category: 'classique',
+		name: 'Callisia turtle',
+		category: 'Lapin',
 		id: '3sd',
-		light: 1,
+		light: 3,
 		water: 2,
-		cover: pothos,
-
+		cover: callisia,
+		alias:'Liane tortue',
 		price: 9
 	},
 	{
-		name: 'calathea',
-		category: 'classique',
+		name: 'Chlorophytum ',
+		category: 'Chat',
 		id: '4kk',
 		light: 2,
-		water: 3,
-		cover: calathea,
-
+		water: 2,
+		cover: Chlorophytum,
+		alias:'plante araignée',
 		price: 20
 	},
 	{
-		name: 'olivier',
-		category: 'extérieur',
+		name: 'Beaucarnea recurvata',
+		category: 'Chat',
 		id: '5pl',
 		light: 3,
 		water: 1,
-		cover: olivier,
+		cover: beaucarnea,
+		alias:"pied-d'éléphant",
 		price: 25
 	},
 
 	{
-		name: 'cactus',
-		category: 'plante grasse',
+		name: 'Carex oshimensis',
+		category: 'Chat',
 		id: '8fp',
-		light: 2,
+		light: 1,
 		water: 1,
-		cover: cactus,
+		cover: carex,
+		alias: 'La laîche du Japon',
 		price: 6
 	},
 	{
-		name: 'basilique',
-		category: 'extérieur',
+		name: 'Cyperus alternifolius',
+		category: 'Chat',
 		id: '7ie',
 		bestSale: true,
 		light: 2,
 		water: 3,
-		cover: basil,
-		price: 5
+		cover: papyrus,
+		alias: 'Papyrus',
+		price: 15
 	},
 	{
-		name: 'succulente',
-		category: 'plante grasse',
+		name: 'Saintpaulia',
+		category: 'Chien',
 		id: '9vn',
-		light: 2,
+		light: 1,
 		water: 1,
-		cover: succulent,
+		cover: Saintpaulia,
+		alias: 'violette africaine',
 		price: 8
 	},
 

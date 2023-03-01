@@ -17,11 +17,13 @@ function App() {
 		<div>
 			<Banner>
 				<img src={logo} alt='logo-la-maison-de rosie' className='lmr-logo' />
-				<h1 className='lmr-title'>La maison de Rosie</h1>
+				<h1 className='lmr-title'>La maison de Rosie </h1>
 			</Banner>
+			<p className='lmr-descript'> Bienvenue sur le site des plantes amies des animaux 🐱🐰</p>
 			<div className='lmr-layout-inner'>
 				<Cart cart={cart} updateCart={updateCart} />
 				<ShoppingList cart={cart} updateCart={updateCart} />
+				
 			</div>
 			<Footer />
 		</div>
